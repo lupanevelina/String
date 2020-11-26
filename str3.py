@@ -1,0 +1,6 @@
+nume=str(input('Introudceti numele : '))
+varsta=str(input('Introudceti varsta : '))
+tara=str(input('Introudceti tara : '))
+clasa=str(input('Introudceti clasa : '))
+print(nume,varsta,tara,clasa,sep=' ')
+print(f'Eu ma numesc {nume} si am {varsta} ani, m-am nascut in {tara} si sunt in clasa {clasa}',sep=' ',end=".")
